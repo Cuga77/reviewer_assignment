@@ -110,7 +110,7 @@ func makeRequest(t *testing.T, method, url string, body interface{}) (*http.Resp
 func getBaseURL() string {
 	url := os.Getenv("E2E_SERVICE_URL")
 	if url == "" {
-		url = "http://localhost:8081"
+		url = "http://localhost:8080"
 	}
 	return url
 }
