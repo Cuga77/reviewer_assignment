@@ -1,8 +1,10 @@
-# Сервис назначения ревьюеров #
+# Сервис назначения ревьюеров
 
-[](https://go.dev/)
-[](https://www.postgresql.org/)
-[](https://www.docker.com/)
+[![CI](https://github.com/Cuga77/reviewer_assignment/actions/workflows/ci.yml/badge.svg)](https://github.com/Cuga77/reviewer_assignment/actions/workflows/ci.yml)
+[![Go](https://img.shields.io/github/go-mod/go-version/Cuga77/reviewer_assignment)](go.mod)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](docker-compose.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Этот сервис представляет собой Go-микросервис, реализующий API для управления Pull Request'ами, командами и пользователями, а также для автоматического назначения ревьюеров. Разработан в рамках тестового задания для стажёра Backend (Avito, осенняя волна 2025).
 ---
